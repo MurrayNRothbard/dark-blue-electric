@@ -1,37 +1,47 @@
 {
-    "name": "dark-blue-electric",
-    "displayName": "Dark Blue Electric",
-    "description": "Dark Blue Electric Theme",
-    "version": "0.2.0",
-    "publisher": "HighSpeedDirt",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/MurrayNRothbard/VSCode-Themes"
-    },
-    "keywords": [
-        "theme",
-        "dark theme",
-        "dark",
-        "electric",
-        "colorful",
-        "colorful theme",
-        "high speed dirt",
-        "Dark Blue Electric",
-        "blue"
-    ],
-    "engines": {
-        "vscode": "^1.58.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Dark Blue Electric",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Dark Blue Electric-color-theme.json"
-            }
-        ]
-    }
+  "name": "dark-blue-electric",
+  "displayName": "Dark Blue Electric",
+  "description": "Dark Blue Electric Theme",
+  "version": "0.2.0",
+  "publisher": "HighSpeedDirt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MurrayNRothbard/VSCode-Themes.git"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "dark",
+    "electric",
+    "colorful",
+    "colorful theme",
+    "high speed dirt",
+    "Dark Blue Electric",
+    "blue"
+  ],
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Blue Electric",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Blue Electric-color-theme.json"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/MurrayNRothbard/VSCode-Themes/issues"
+  },
+  "homepage": "https://github.com/MurrayNRothbard/VSCode-Themes#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }

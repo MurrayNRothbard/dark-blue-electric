@@ -1,9 +1,10 @@
 {
 	"name": "Dark Blue Electric",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.background": "#002c49",
-		"activityBar.foreground": "#9c5900",
+		"activityBar.foreground": "#ff9100",
 		"activityBar.border": "#00bbff",
 		"activityBarBadge.foreground": "#ffffff",
 		"foreground": "#55c1ff",
@@ -22,6 +23,8 @@
 		"tab.border": "#006f97",
 		"editorGroupHeader.tabsBackground": "#06003f",
 		"editorGroupHeader.tabsBorder": "#262A39",
+		"editorLineNumber.foreground": "#004640",
+		"editorLineNumber.activeForeground": "#00ffea",
 		"terminal.background": "#0d0e1a",
 		"terminal.foreground": "#3584E4",
 		"terminalCursor.foreground": "#ff7300",
@@ -62,7 +65,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#5dffce"
 			}
 		},
 		{
